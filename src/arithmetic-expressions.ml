@@ -25,8 +25,9 @@ let rec isval t =
   | t when isnumericval t -> true
   | _ -> false
 
+let term_1 = TmSucc TmZero
 let term_2 = TmSucc (TmSucc TmZero)
 
 let () =
-  let result = isval term_2 in
+  let result = isval term_1 in
     Printf.printf "Is 2 a value? %b\n" result
