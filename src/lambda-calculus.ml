@@ -57,3 +57,7 @@ let rec eval ctx t =
   try let t' = eval1 ctx t
     in eval ctx t' 
   with NoRuleApplies -> t
+
+
+
+  type context = (string * binding) list

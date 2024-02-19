@@ -1,0 +1,24 @@
+# dune exec _build/default/bin/main.exe
+# OCAMLPARAM: unset
+# Shared cache: disabled
+# Shared cache location: /Users/alanbertani/.cache/dune/db
+# Workspace root:
+# /Users/alanbertani/pdfs/programming-languages/algs/type-theory/lcintepreter
+# Auto-detected concurrency: 8
+# Dune context:
+#  { name = "default"
+#  ; kind = "default"
+#  ; profile = Dev
+#  ; merlin = true
+#  ; fdo_target_exe = None
+#  ; build_dir = In_build_dir "default"
+#  ; installed_env =
+#      map
+#        { "INSIDE_DUNE" :
+#            "/Users/alanbertani/pdfs/programming-languages/algs/type-theory/lcintepreter/_build/default"
+#        ; "OCAML_COLOR" : "always"
+#        ; "OPAMCOLOR" : "always"
+#        }
+#  ; instrument_with = []
+#  }
+$ /opt/homebrew/bin/ocamlc.opt -config > /var/folders/86/yr0b9yb11bv1cnv0kx6mbhq80000gn/T/dune_595cba_output
